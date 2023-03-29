@@ -1,3 +1,5 @@
-@media (max-width: 480px) .none {
-  display: none;
+@media (max-width: 800px){
+    .none{
+        display: none;
+    }
 }

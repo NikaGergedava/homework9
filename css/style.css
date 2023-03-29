@@ -27,6 +27,15 @@ ul {
   font-size: 32px;
   line-height: 37px;
   color: white;
+  font-family: "Gentium Book Plus";
+  font-style: normal;
+}
+
+a:hover {
+  color: red;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
 }
 .headertext {
   margin: 327px 197px 96px 197px;
@@ -35,6 +44,10 @@ ul {
   line-height: 46px;
   text-align: center;
   color: #c0b4b4;
+  font-family: "Gentium Book Plus";
+  font-style: normal;
+
+  
 }
 .section2 {
   width: 100%;
@@ -47,6 +60,9 @@ ul {
   line-height: 56px;
   color: white;
   text-align: center;
+  font-family: "Gentium Book Plus";
+  font-style: normal;
+
 }
 .cards {
   display: flex;
@@ -67,6 +83,9 @@ article {
   text-align: center;
   margin-bottom: 42px;
   color: white;
+  font-family: "Gentium Book Plus";
+  font-style: normal;
+
 }
 .articleboxes {
   display: flex;
@@ -80,26 +99,30 @@ article {
   width: 347px;
   height: 126px;
   display: flex;
-}
-.articletextbox {
+  font-family: "Gentium Book Plus";
+  font-style: normal;
   background-color: #8e8b8b;
   width: 565px;
   height: 320px;
+
 }
+
 .articletext {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: justify;
   padding: 62px 109px 130px 109px;
+  font-family: "Gentium Book Plus";
+  font-style: normal;
 }
-footer{
-    background-color: #2A2626;
-    display: flex;
+footer {
+  background-color: #2a2626;
+  display: flex;
 }
-.footericons{
-    display: flex;
-    align-items: center;
-    margin-left: 815px;
-    gap: 49px;    
+.footericons {
+  display: flex;
+  align-items: center;
+  margin-left: 815px;
+  gap: 49px;
 }
